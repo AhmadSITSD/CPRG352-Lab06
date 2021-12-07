@@ -24,7 +24,11 @@
             <input type="hidden" name="action" value="add">
         </form>
         <form action="" method="POST">
-            
+            <c:forEach var="listitems" items="${listitems}">
+                <input type="radio" name="itemname" value="${listitems}">${listitems}</p>
+            </c:forEach>
+                <input type="submit" value="Delete">
+                <input type="hidden" name="action" value="delete">
         </form>
     </body>
 </html>

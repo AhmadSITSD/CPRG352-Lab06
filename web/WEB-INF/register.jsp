@@ -16,7 +16,7 @@
         <form action="shoppingList" method="POST">
             <label>Username: </label>
             <input type="text" name="username">
-            <input type="hidden" name="action" value="register">
+            <input type="hidden" name="action" value="register"><br>
             <input type="submit" value="Register Name">
         </form>
     </body>
